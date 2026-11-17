@@ -1,0 +1,419 @@
+{
+  "title": "Gestione delle prenotazioni delle sale",
+  "description": "Prototipo navigabile per consultare il calendario settimanale e gestire le prenotazioni delle sale riunioni di un ufficio comunale.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle prenotazioni e degli spazi per la settimana selezionata.",
+      "metrics": [
+        {
+          "label": "Prenotazioni settimanali",
+          "value": "18"
+        },
+        {
+          "label": "Sale disponibili",
+          "value": "4"
+        },
+        {
+          "label": "Occupazione media",
+          "value": "62%"
+        },
+        {
+          "label": "Richieste da confermare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Giorno",
+        "Orario",
+        "Richiedente",
+        "Organizzazione",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Lunedì",
+          "09:00–10:30",
+          "Nubi",
+          "Officina Vela",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Vela",
+          "Lunedì",
+          "11:00–12:00",
+          "Timo",
+          "Cerchio Lumo",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Nubi",
+          "Martedì",
+          "14:00–15:30",
+          "Riva",
+          "Atelier Timo",
+          "12",
+          "Da confermare"
+        ],
+        [
+          "Orsa",
+          "Mercoledì",
+          "10:00–11:00",
+          "Pino",
+          "Rete Nubi",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Lumo",
+          "Giovedì",
+          "15:00–16:00",
+          "Duna",
+          "Gruppo Orsa",
+          "9",
+          "Da confermare"
+        ],
+        [
+          "Vela",
+          "Venerdì",
+          "09:30–11:00",
+          "Edera",
+          "Lab Riva",
+          "7",
+          "Confermata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "calendario-settimanale",
+      "title": "Calendario settimanale",
+      "description": "Vista per giorno delle fasce occupate e libere, con filtri per sala e stato.",
+      "metrics": [
+        {
+          "label": "Settimana",
+          "value": "12–16 maggio"
+        },
+        {
+          "label": "Fasce occupate",
+          "value": "18"
+        },
+        {
+          "label": "Fasce libere",
+          "value": "22"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Giorno",
+        "Orario",
+        "Richiedente",
+        "Organizzazione",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Lunedì",
+          "09:00–10:30",
+          "Nubi",
+          "Officina Vela",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Lumo",
+          "Martedì",
+          "09:00–10:00",
+          "Timo",
+          "Rete Orsa",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Lumo",
+          "Giovedì",
+          "15:00–16:00",
+          "Duna",
+          "Gruppo Orsa",
+          "9",
+          "Da confermare"
+        ],
+        [
+          "Vela",
+          "Lunedì",
+          "11:00–12:00",
+          "Timo",
+          "Cerchio Lumo",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Vela",
+          "Mercoledì",
+          "14:00–15:00",
+          "Riva",
+          "Atelier Timo",
+          "6",
+          "Annullata"
+        ],
+        [
+          "Vela",
+          "Venerdì",
+          "09:30–11:00",
+          "Edera",
+          "Lab Riva",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Nubi",
+          "Martedì",
+          "14:00–15:30",
+          "Riva",
+          "Atelier Timo",
+          "12",
+          "Da confermare"
+        ],
+        [
+          "Nubi",
+          "Giovedì",
+          "10:00–11:30",
+          "Pino",
+          "Rete Nubi",
+          "10",
+          "Confermata"
+        ],
+        [
+          "Orsa",
+          "Mercoledì",
+          "10:00–11:00",
+          "Pino",
+          "Rete Nubi",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Orsa",
+          "Venerdì",
+          "13:00–14:00",
+          "Duna",
+          "Gruppo Orsa",
+          "5",
+          "Confermata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "prenotazioni",
+      "title": "Prenotazioni",
+      "description": "Elenco filtrabile delle richieste e delle prenotazioni, con inserimento di nuovi appuntamenti.",
+      "metrics": [
+        {
+          "label": "Prenotazioni totali",
+          "value": "18"
+        },
+        {
+          "label": "Confermate",
+          "value": "13"
+        },
+        {
+          "label": "Da confermare",
+          "value": "3"
+        },
+        {
+          "label": "Annullate",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Giorno",
+        "Orario",
+        "Richiedente",
+        "Organizzazione",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Lunedì",
+          "09:00–10:30",
+          "Nubi",
+          "Officina Vela",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Vela",
+          "Lunedì",
+          "11:00–12:00",
+          "Timo",
+          "Cerchio Lumo",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Nubi",
+          "Martedì",
+          "14:00–15:30",
+          "Riva",
+          "Atelier Timo",
+          "12",
+          "Da confermare"
+        ],
+        [
+          "Orsa",
+          "Mercoledì",
+          "10:00–11:00",
+          "Pino",
+          "Rete Nubi",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Vela",
+          "Mercoledì",
+          "14:00–15:00",
+          "Riva",
+          "Atelier Timo",
+          "6",
+          "Annullata"
+        ],
+        [
+          "Nubi",
+          "Giovedì",
+          "10:00–11:30",
+          "Pino",
+          "Rete Nubi",
+          "10",
+          "Confermata"
+        ],
+        [
+          "Lumo",
+          "Giovedì",
+          "15:00–16:00",
+          "Duna",
+          "Gruppo Orsa",
+          "9",
+          "Da confermare"
+        ],
+        [
+          "Vela",
+          "Venerdì",
+          "09:30–11:00",
+          "Edera",
+          "Lab Riva",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Orsa",
+          "Venerdì",
+          "13:00–14:00",
+          "Duna",
+          "Gruppo Orsa",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Lumo",
+          "Martedì",
+          "15:00–16:00",
+          "Edera",
+          "Lab Riva",
+          "4",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Sala",
+        "Giorno",
+        "Orario",
+        "Richiedente",
+        "Organizzazione",
+        "Partecipanti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "sale",
+      "title": "Sale",
+      "description": "Consultazione delle sale, della capienza e delle dotazioni disponibili.",
+      "metrics": [
+        {
+          "label": "Sale attive",
+          "value": "4"
+        },
+        {
+          "label": "Capienza complessiva",
+          "value": "78"
+        },
+        {
+          "label": "Sale con proiettore",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Capienza",
+        "Piano",
+        "Dotazioni",
+        "Accessibilità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "20",
+          "Terra",
+          "Schermo, lavagna",
+          "Accessibile",
+          "Attiva"
+        ],
+        [
+          "Vela",
+          "12",
+          "Primo",
+          "Proiettore, lavagna",
+          "Accessibile",
+          "Attiva"
+        ],
+        [
+          "Nubi",
+          "30",
+          "Terra",
+          "Proiettore, schermo, lavagna",
+          "Accessibile",
+          "Attiva"
+        ],
+        [
+          "Orsa",
+          "16",
+          "Secondo",
+          "Schermo, tavolo modulare",
+          "Accessibile",
+          "Attiva"
+        ]
+      ],
+      "form": [
+        "Sala",
+        "Capienza",
+        "Piano",
+        "Dotazioni",
+        "Accessibilità",
+        "Stato"
+      ]
+    }
+  ]
+}
